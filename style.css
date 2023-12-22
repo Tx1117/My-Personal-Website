@@ -1,10 +1,41 @@
-h1{
-    text-align: center;
-    color: rgb(165, 15, 80);
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
 
 }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    justify-self: end;
+
+}
+
+.nav a {
+    padding: 10px 20px;
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+
+.nav a:hover{
+    background: black;
+    color: aliceblue;
+}
+
+.nav li {
+    margin: 0 10px;
+}
+header{
+    box-shadow: 3px 3px 3px 3px rgb(241, 7, 136);
+}
 body{
-background-image: url(./images/wallpaperflare.com_wallpaper.jpg);
-background-size:cover;
-background-attachment: scroll;
+    margin: 0;
 }
